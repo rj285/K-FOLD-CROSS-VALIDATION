@@ -1,0 +1,5 @@
+Imagine you're playing with a flashlight in a dark room. The beam of light from the flashlight spreads out as it travels away from the flashlight. Now, imagine if you could control how quickly the light beam spreads out. If you turn a knob on the flashlight, the light beam might spread out quickly or slowly.
+
+In a way, the "gamma" in the Support Vector Machine (SVM) algorithm is like that knob on the flashlight. It controls how quickly the influence of a single example in the data spreads out. A small gamma means the influence spreads out slowly, like a narrow flashlight beam that only affects nearby points. A large gamma means the influence spreads out quickly, like a wider flashlight beam that affects points further away.
+
+So, when we say gamma='auto', it's like asking the computer to automatically choose the right setting for the flashlight beam based on the data. It figures out how wide or narrow the beam should be to do the best job of separating the different types of things we're trying to classify.
